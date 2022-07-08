@@ -221,3 +221,15 @@ def update_currency(request,pk):
         cur.save()
         return redirect('currency')
     return render(request, 'currency_alter.html',)
+
+def groupalter(request):
+    return render(request,'stockgroupalter.html')
+
+def editunit(request):
+    return render(request,'editunit.html')
+
+def editgodown(request):
+    return render(request,'godown.html')
+
+def stockcat(request):
+    return render(request,'editstockcat.html')

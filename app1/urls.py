@@ -34,6 +34,10 @@ urlpatterns = [
     path('load_create_currency',views.load_create_currency,name='load_create_currency'),
     path('create_currency',views.create_currency,name='create_currency'),
     path('update_currency/<int:pk>',views.update_currency,name='update_currency'),
+    path('groupalter',views.groupalter,name='groupalter'),
+    path('editunit',views.editunit,name='editunit'),
+    path('editgodown',views.editgodown,name='editgodown'),
+    path('stockcat',views.stockcat,name='stockcat'),
 
 
 
